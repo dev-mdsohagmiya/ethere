@@ -1,10 +1,14 @@
+"use client";
 import NextImage from "../next-image/NextImage";
 import { IMAGES } from "@/public";
+import NavbarManuDesktop from "./NavbarMenu.desktop";
+import { useState } from "react";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
-      <div className="px-5 md:px-10 lg:px-12 xl:px-14">
+    <div className="">
+      <div className="px-5 md:px-10 lg:px-12 xl:px-14" style={{ zIndex: 5 }}>
         <div className="flex justify-between py-4 items-center">
           <div>
             <div className="cursor-pointer  w-[22px] h-[22px]">
@@ -25,7 +29,10 @@ function Navbar() {
             </div>
           </div>
           <div>
-            <div className="cursor-pointer w-[28px] h-[20px]">
+            <div
+              className="cursor-pointer w-[28px] h-[20px]"
+              onClick={() => setIsOpen(true)}
+            >
               <NextImage
                 className="w-full h-full"
                 alt=""
@@ -34,6 +41,13 @@ function Navbar() {
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className={`fixed top-0 right-0 w-[30%] transition ease-in-out delay-300 h-full ${
+          isOpen ? "translate-x-[0%]" : "translate-x-[100%] "
+        }`}
+      >
+        <NavbarManuDesktop setIsOpen={setIsOpen} />
       </div>
     </div>
   );

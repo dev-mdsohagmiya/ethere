@@ -10,7 +10,7 @@ function HeroSection() {
             <LeftCard />
           </div>
         </div>
-        <div className="col-span-6 flex items-center pb-[40%]">
+        <div className="col-span-6 flex items-center pb-[35%]">
           <RightCard />
         </div>
       </div>

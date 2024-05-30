@@ -16,6 +16,8 @@ const config: Config = {
     },
     colors: {
       black: "rgba(0, 0, 0, 1)",
+      white: "white",
+      gray: "#F6F6F6",
     },
   },
   plugins: [],

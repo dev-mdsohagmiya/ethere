@@ -18,7 +18,7 @@ function RightCard() {
             dress, perfectly matched.
           </h4>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end pt-10">
           <Button text=" Learn More" />
         </div>
       </div>
