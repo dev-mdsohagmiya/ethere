@@ -1,4 +1,5 @@
 import LeftCard from "./components/LeftCard";
+import RightCard from "./components/RightCard";
 
 function HeroSection() {
   return (
@@ -9,7 +10,9 @@ function HeroSection() {
             <LeftCard />
           </div>
         </div>
-        <div></div>
+        <div className="col-span-6 flex items-center pb-[40%]">
+          <RightCard />
+        </div>
       </div>
     </div>
   );
