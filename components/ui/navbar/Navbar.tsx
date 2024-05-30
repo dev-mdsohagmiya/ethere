@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
       <div className="px-5 md:px-10 lg:px-12 xl:px-14">
-        <div className="flex justify-between py-6 items-center">
+        <div className="flex justify-between py-4 items-center">
           <div>
             <div className="cursor-pointer  w-[22px] h-[22px]">
               <NextImage
