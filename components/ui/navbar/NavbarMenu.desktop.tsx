@@ -21,11 +21,11 @@ function NavbarManuDesktop({ setIsOpen }: NavbarDesktopManuPropsType) {
           />
         </div>
       </div>
-      <div className="grid gap-10 pr-[12%]  h-full items-center pb-10">
-        <div className="grid gap-14 pr-[15%]   items-center">
+      <div className="grid pr-[12%]  h-full items-center pb-10">
+        <div className="grid gap-10 md:gap-14 pr-[15%]   items-center">
           <div className="text-end">
             <Link
-              className="font-[500] text-[24px] text-black uppercase text-center"
+              className="font-[500] text-[22px] md:text-[24px] text-black uppercase text-center"
               href={"#"}
             >
               Home
@@ -33,7 +33,7 @@ function NavbarManuDesktop({ setIsOpen }: NavbarDesktopManuPropsType) {
           </div>
           <div className="text-end">
             <Link
-              className="font-[500] text-[24px] text-black uppercase text-end"
+              className="font-[500] text-[22px] md:text-[24px] text-black uppercase text-end"
               href={"#"}
             >
               SHOP
@@ -41,7 +41,7 @@ function NavbarManuDesktop({ setIsOpen }: NavbarDesktopManuPropsType) {
           </div>
           <div className="text-end">
             <Link
-              className="font-[500] text-[24px] text-black uppercase text-end"
+              className="font-[500] text-[22px] md:text-[24px] text-black uppercase text-end"
               href={"#"}
             >
               ABOUT
@@ -49,7 +49,7 @@ function NavbarManuDesktop({ setIsOpen }: NavbarDesktopManuPropsType) {
           </div>
           <div className="text-end">
             <Link
-              className="font-[500] text-[24px] text-black uppercase text-end"
+              className="font-[500] text-[22px] md:text-[24px] text-black uppercase text-end"
               href={"#"}
             >
               CONTACT

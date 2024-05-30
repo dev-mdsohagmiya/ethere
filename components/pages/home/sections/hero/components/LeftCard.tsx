@@ -3,9 +3,9 @@ import { IMAGES } from "@/public";
 
 function LeftCard() {
   return (
-    <div>
+    <div className="h-full">
       <NextImage
-        className="w-full"
+        className="w-full h-full object-cover"
         src={IMAGES.home.hero.heroLeftImage}
         alt=""
       />
