@@ -20,7 +20,10 @@ function Banner() {
                 </div>
               </div>
               <div>
-                <h2 className="-translate-y-1 md:-translate-y-0 font-[500] text-[56px] md:text-[60px]  lg:text-[70px] xl:text-[82px]">
+                <h2
+                  className="-translate-y-1 md:-translate-y-0 font-[500] text-[56px] md:text-[60px]  lg:text-[70px] xl:text-[82px]"
+                  style={{ zIndex: 1 }}
+                >
                   PLATFORM
                 </h2>
               </div>
