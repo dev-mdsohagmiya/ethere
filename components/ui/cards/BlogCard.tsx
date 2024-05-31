@@ -11,7 +11,7 @@ function BlogCard({ src, title, topic, dsc, href }: blogCardPropsTypes) {
         <div>
           <NextImage className="w-full" alt="" src={src} />
         </div>
-        <div className="py-8 md:py-10 grid gap-2">
+        <div className="py-8 md:py-10 grid gap-3 md:gap-4">
           <div>
             <h2 className="uppercase text-[22px] md:text-[22px]  lg:text-[24px] lg:leading-[37px] font-[500]">
               {title}
@@ -22,9 +22,9 @@ function BlogCard({ src, title, topic, dsc, href }: blogCardPropsTypes) {
               {topic}
             </h4>
           </div>
-          <div className="pt-3">
+          <div className="">
             <p
-              className={`uppercase text-[18px] lg:text-[21px] font-[300] lg:leading-[29px] ${fontNotoSerif.className}`}
+              className={` text-[18px] lg:text-[21px] font-[300] lg:leading-[29px] ${fontNotoSerif.className}`}
             >
               {dsc}
             </p>
