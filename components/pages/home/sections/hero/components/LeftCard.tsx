@@ -10,7 +10,7 @@ function LeftCard() {
         src={IMAGES.home.hero.heroLeftImage}
         alt=""
       />
-      <div className="absolute md:hidden top-0  grid items-center h-full pb-7">
+      <div className="absolute md:hidden top-0  grid items-center h-full pb-14">
         <MiddleCard />
       </div>
     </div>
