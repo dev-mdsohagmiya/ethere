@@ -43,7 +43,7 @@ function Navbar() {
         </div>
       </div>
       <div
-        style={{ zIndex: 20 }}
+        style={{ zIndex: 100 }}
         className={`fixed top-0 right-0 w-[60%] md:w-[30%] transition ease-in-out delay-300 h-full ${
           isOpen ? "translate-x-[0%]" : "translate-x-[100%] "
         }`}
