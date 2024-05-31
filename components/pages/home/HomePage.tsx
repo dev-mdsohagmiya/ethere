@@ -1,4 +1,4 @@
-import { BlogsSection, HeroSection } from "./sections";
+import { BannerSection, BlogsSection, HeroSection } from "./sections";
 
 function HomePage() {
   return (
@@ -8,6 +8,10 @@ function HomePage() {
       </div>
       <div>
         <BlogsSection />
+      </div>
+
+      <div>
+        <BannerSection />
       </div>
     </div>
   );
