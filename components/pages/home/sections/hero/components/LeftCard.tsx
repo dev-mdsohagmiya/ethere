@@ -4,13 +4,13 @@ import MiddleCard from "./MiddleCard";
 
 function LeftCard() {
   return (
-    <div className="h-full relative md:block ">
+    <div className="h-full relative md:block " style={{ zIndex: 4 }}>
       <NextImage
         className="w-full h-full object-cover"
         src={IMAGES.home.hero.heroLeftImage}
         alt=""
       />
-      <div className="absolute md:hidden top-0  grid items-center h-full">
+      <div className="absolute md:hidden top-0  grid items-center h-full pb-7">
         <MiddleCard />
       </div>
     </div>

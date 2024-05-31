@@ -7,8 +7,8 @@ import { useState } from "react";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="fixed top-0 w-full bg-white">
-      <div className="px-5 md:px-10 lg:px-12 xl:px-14" style={{ zIndex: 5 }}>
+    <div className="fixed top-0 w-full bg-white" style={{ zIndex: 5 }}>
+      <div className="px-5 md:px-10 lg:px-12 xl:px-14">
         <div className="flex justify-between py-4 items-center">
           <div>
             <div className="cursor-pointer  w-[22px] h-[22px]">
@@ -43,6 +43,7 @@ function Navbar() {
         </div>
       </div>
       <div
+        style={{ zIndex: 20 }}
         className={`fixed top-0 right-0 w-[60%] md:w-[30%] transition ease-in-out delay-300 h-full ${
           isOpen ? "translate-x-[0%]" : "translate-x-[100%] "
         }`}
